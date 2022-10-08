@@ -8,6 +8,8 @@ const date = document.getElementById("date");
 const animated_bgs = document.querySelectorAll(".animated-bg");
 const animated_bg_texts = document.querySelectorAll(".animated-bg-text");
 
+setTimeout(getData, 2500);
+
 function getData() {
   header.innerHTML =
     '<img src="/img/cat-thief-funny-animal-pictures-45__605.jpg" alt="">';
